@@ -20,7 +20,7 @@ def hybrid_loss_ori(predictions, target):
 
     return loss
 
-def hybrid_loss(predictions, target, weight=[0,2,0.2,0.2,0.2,0.2]):
+def hybrid_loss(predictions, target, weight=[0.2,0.2,0.2,0.2,0.2]):
     """Calculating the loss"""
     loss = 0
 
